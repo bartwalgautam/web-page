@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+	height: 750px;
+	background-size:cover;
+	background-position: center;
+}
+ul{
+	float:left;
+	list-style-type: none;
+	margin-top: 25px; 
+	margin-left: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color:black;
+}
+ul li.active a{
+	background-color: #fff;
+	color:black;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: blue;
+		font-size: 120px;
+}
+.main1{
+	max-width: 1600px;
+	margin: 0;
+	float: right;
+	display: flex;
+	}
+
+input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	margin-top: 10px;
+	padding: 4px;
+	width: 150px;
+	height: 25px;
+
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+input[type="password"]
+{
+	display: block;
+	box-sizing: border-box;
+	margin-top: 10px;
+	padding: 4px;
+	width: 150px;
+	height: 25px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+
+button[type="submit"]
+{
+	margin-left: 28px;
+	display: flex;
+	width: 120px;
+	margin-top: 10px;
+	height: 32px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: :0.2s ease;
+	cursor: pointer;
+	
+}
+button[type="submit"]:hover,
+button[type="submit"]:focus
+{
+	background: #ff5722;
+	transition: 0.2s ease;
+}
+
